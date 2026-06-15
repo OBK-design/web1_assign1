@@ -4,13 +4,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles/styles.css" rel="stylesheet" />
     <title>OBK - Home Page</title>
   </head>
 
   <body>
     <!-- The main header for the page with my name as the title -->
     <header>
-      <h1>Omar Ben Khedher</h1>
+      <h1 class="site-title">Omar Ben Khedher</h1>
     </header>
     <nav>
       <ul>
@@ -22,7 +23,12 @@
       <article>
         <h2>About me</h2>
         <!-- I used the height attribute to change the size of the image in html and not in css "yet"-->
-        <img src="images/myface.png" height="300" alt="A picture of me" />
+        <img
+          id="my-image"
+          src="images/myface.png"
+          height="300"
+          alt="A picture of me"
+        />
         <!-- I used break tags to make the text more readable i need css to justify the text -->
         <p>
           I attended an Art academy and spent the last five years working with
