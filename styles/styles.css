@@ -7,7 +7,8 @@ body {
 
 header,
 footer {
-  background-color: rgb(82, 0, 164);
+  background-color: rgb(137, 0, 130);
+  color: #ffffff;
 }
 .site-title {
   color: aliceblue;
@@ -17,3 +18,31 @@ footer {
   box-shadow: 0 0 1px 2px black;
 }
 
+.hobbies {
+  list-style-type: square;
+}
+
+/* Remove bullets from the list inside navigation */
+.nav {
+  list-style-type: none;
+}
+/* Remove space from the list inside navigation */
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none; /* removes the underline on the links */
+  color: #5c005a; /* Dark purple text color */
+  background-color: #f0f0f0; /* Light gray background */
+  margin-right: 10px; /* space between buttons */
+  border-radius: 4px; /* slightly rounds the corners */
+  display: inline-block; /* this ensures padding and margins apply correctly */
+}
+
+.nav a:hover,
+.nav a:active {
+  background-color: #8d0078; /* purple on hover/active */
+  color: #ffffff; /* turns text white for contrast */
+  border-color: #3e0227; /* darker purple border */
+}
